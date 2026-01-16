@@ -1,0 +1,6 @@
+text = input("Paste a paragraph or sentence here: ")
+char_count = len(text)
+word_count = len(text.split())
+print(f"\n--- Text Analysis ---")
+print(f"Total Words: {word_count}")
+print(f"Total Characters: {char_count}")
